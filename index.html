@@ -12,7 +12,6 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -22,7 +21,7 @@
       </span>
       <ul>
         <li><a class="menuitem active" href="#home">Club</a></li>
-        <li><a class="menuitem" href="#">More</a></li>
+        <!-- <li><a class="menuitem" href="#">More</a></li> -->
         <li><a class="menuitem" href="#about">About Us</a><li>
         <li><a class="menuitem" href="#contact">Contact us</a></li>
       </ul>
@@ -52,6 +51,37 @@
           <span class="dot active" onclick="control(1)"></span>
           <span class="dot" onclick="control(2)"></span>
           <span class="dot" onclick="control(3)"></span>
+        </div>
+      </div>
+
+      <div class="about" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <img src="images/professor1.jpg" />
+              <h2>Weenish leym</h2>
+              <p><strong>Sports Professor at Harward University</strong></p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="images/professor2.jpg" />
+              <h2>Retony uik</h2>
+              <p><strong>Sports Advisor</strong></p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="images/professor3.jpg" />
+              <h2>Linter fulk</h2>
+              <p><strong>  Professor at US University</strong></p>
+            </div>
+          </div>
+  
+          <p class="my-5 text-center">
+            <b>WHO WE ARE</b><br/>
+            <b>THE TEAM AWESOME AND OUR STARTUP COMPANY</b><br/><br/>
+          
+            Games are sometimes played purely for entertainment, sometimes for achievement or reward as well.<br />
+            They can be played alone, in teams, or online; by amateurs or by professionals. <br/>
+            The players may have an audience of non-players, such as when people are entertained by watching a chess championship.
+          </p>
         </div>
       </div>
   
@@ -116,127 +146,71 @@
       </a>
     </div> -->
 
-    <div class="about" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <img src="images/professor1.jpg" />
-            <h2>Weenish leym</h2>
-            <p><strong>Sports Professor at Harward University</strong></p>
-          </div>
-          <div class="col-md-4 text-center">
-            <img src="images/professor2.jpg" />
-            <h2>Retony uik</h2>
-            <p><strong>Sports Advisor</strong></p>
-          </div>
-          <div class="col-md-4 text-center">
-            <img src="images/professor3.jpg" />
-            <h2>Linter fulk</h2>
-            <p><strong>  Professor at US University</strong></p>
-          </div>
-        </div>
 
-        <p class="my-5 text-center">
-          <b>WHO WE ARE</b><br/>
-          <b>THE TEAM AWESOME AND OUR STARTUP COMPANY</b><br/><br/>
-        
-          Games are sometimes played purely for entertainment, sometimes for achievement or reward as well.<br />
-          They can be played alone, in teams, or online; by amateurs or by professionals. <br/>
-          The players may have an audience of non-players, such as when people are entertained by watching a chess championship.
-        </p>
-      </div>
-    </div>
 
     <div class="contact" id="contact">
-      <div class="container animated fadeIn">
+      <section>
+        <div class="container1">
+          <div class="contactinfo">
+            <div>
+              <h2>Contact Us</h2>
+              <ul class="info">
+                <li>
+                  <span>
+                    <img src="https://www.clipartmax.com/png/middle/121-1214856_pro-locator-free-location-icon-vector.png" />
+                  </span>
+                  <span>
+                    1 John Smith Street <br />
+                    Smithville <br />
+                    Smithland
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <img src="https://p7.hiclipart.com/preview/663/97/225/email-computer-icons-message-bounce-address-email-icon.jpg" />
+                  </span>
+                  <span>
+                    johnsmith@johnsmith.com
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <img src="https://www.pinclipart.com/picdir/middle/210-2108807_tete-mobile-svg-png-icon-free-download-phone.png" />
+                  </span>
+                  <span>
+                    01234567890
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="contactusform">
+            <h2>Send Us A Message</h2>
+            <div class="formBox">
+              <div class="inputBox w50">
+                <input type="text" name="" required>
+                <span>First Name</span>
+              </div>
+              <div class="inputBox w50">
+                <input type="text" name="" required>
+                <span>Last Name</span>
+              </div>
+              <div class="inputBox w50">
+                <input type="text" name="" required>
+                <span>Email Address</span>
+              </div>
+              <div class="inputBox w100">
+                <textarea name="" required></textarea>
+                <span>Please enter a message</span>
+              </div>
+              <div class="inputBox w50">
+                <input type="submit" value="Send">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <div class="row">
-          <hr>
-          <div class="col-sm-12" id="parent">
-            <div class="col-sm-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1087.7724805178511!2d17.10185470022082!3d-22.56914263462643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c0b1b4c07cc9a2d%3A0xa7b7fb2d2b6617b9!2sNelson%20Mandela%20Ave%2C%20Windhoek!5e0!3m2!1sen!2sna!4v1596791356742!5m2!1sen!2sna" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
-      
-            <div class="col-sm-6">
-              <form action="form.php" class="contact-form" method="post">
-        
-                  <div class="form-group">
-                    <input type="text" class="form-control" id="name" name="nm" placeholder="Name" required="" autofocus="">
-                  </div>
-              
-              
-                  <div class="form-group form_left">
-                    <input type="email" class="form-control" id="email" name="em" placeholder="Email" required="">
-                  </div>
-              
-                <div class="form-group">
-                     <input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Mobile No." required="">
-                </div>
-                <div class="form-group">
-                <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Type Your Message/Feedback here..." required=""></textarea>
-                <br>
-                  <button class="btn btn-default btn-send"> <span class="glyphicon glyphicon-send"></span> Send Message </button>
-                </div>
-               </form>
-            </div>
-          </div>
-        </div>
-      
-        <div class="container second-portion">
-        <div class="row">
-              <!-- Boxes de Acoes -->
-            <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">							
-              <div class="icon">
-                <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                <div class="info">
-                  <h3 class="title">MAIL</h3>
-                  <p>
-                    <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp Webadmin@schoolio.co
-                    <br>
-                  </p>
-                </div>
-              </div>
-              <div class="space"></div>
-            </div> 
-          </div>
-            
-              <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">							
-              <div class="icon">
-                <div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-                <div class="info">
-                  <h3 class="title">CONTACT</h3>
-                    <p>
-                    <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+264)-818145709
-                    <br>
-                    <br>
-                  </p>
-                </div>
-              </div>
-              <div class="space"></div>
-            </div> 
-          </div>
-            
-          <div class="col-xs-12 col-sm-6 col-lg-4">
-            <div class="box">							
-              <div class="icon">
-                <div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                <div class="info">
-                  <h3 class="title">ADDRESS</h3>
-                    <p>
-                     <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp Unit 5, Nelson Mandela Avenue, Windhoek, Namibia 
-                     
-                  </p>
-                </div>
-              </div>
-              <div class="space"></div>
-            </div> 
-          </div>		               
-        </div>
-      </div>
-      
-      </div>
     </div>
 
     <footer class="site-footer">
