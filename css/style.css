@@ -26,6 +26,7 @@ body {
   background-color: #EDF5F4;
   margin: 0;
   padding: 0;
+  font-family: Helvetica;
 }
 
 .header {
@@ -57,7 +58,7 @@ body {
   font-size: 18px;
   margin-right: 30px;
   text-decoration: none;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Helvetica';
   transition: 2s;
 }
 
@@ -164,7 +165,7 @@ body {
 }
 
 .sports h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   margin: 15px 0 10px;
@@ -180,7 +181,7 @@ body {
 
 .more .title {
   color: white;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Helvetica', serif;
   font-size: 30px;
   font-weight: 800;
   margin-top: 70px;
@@ -193,7 +194,7 @@ body {
   border: 5px solid red;
   border-radius: 50px;
   color: white;
-  font-family: 'Lobster', cursive;
+  font-family: 'Helvetica';
   font-size: 40px;
   margin-left: 500px;
   padding: 11px;
@@ -489,7 +490,7 @@ body {
   margin-top:50px; 
 }
 
-    @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
 @import "http://fonts.googleapis.com/css?family=Roboto:400,500";
 
 .box > .icon { text-align: center; position: relative; }
